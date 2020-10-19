@@ -55,6 +55,42 @@ $tocBreakpoint: 1024px;
     margin: 0 auto;
     display: block;
   }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .contact-form .contact-form-name,
+  .contact-form .contact-form-email,
+  .contact-form .contact-form-message {
+    width:100%;
+    min-height: 2.5em;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: ubuntu;
+    resize: vertical;
+  }
+
+  .contact-form .contact-form-send {
+    width: 20%;
+    height: 2.5em;
+    padding: 12px;
+    margin-top: 1em;
+    text-align: center;
+    font-family: ubuntu;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+
+    @media screen and (max-width: 600px) {
+      width:100%;
+    }
+  }
 }
 
 #post__title {
