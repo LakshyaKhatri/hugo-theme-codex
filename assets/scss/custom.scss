@@ -15,47 +15,48 @@
   }
 
   .contact-form-wrapper {
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
 
-    #input-name, #input-email, #input-message {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-      margin-top: 6px;
-      margin-bottom: 16px;
-      resize: vertical;
-      font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,sans-serif;
-    }
-
-    #submit-btn {
-      background-color: orange;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    #submit-btn:hover {
-      background-color: #e69500;
-    }
-
-    @media only screen and (min-width: 600px) {
-      #submit-btn {
-        align-self: flex-end;
-        width: 200px;
-      }
-    }
-
-    @media only screen and (max-width: 600px) {
-      #submit-btn {
-        align-self: stretch;
+      #input-name, #input-email, #input-message {
         width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,sans-serif;
+      }
+
+      #submit-btn {
+        background-color: orange;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      #submit-btn:hover {
+        background-color: #e69500;
+      }
+
+      @media only screen and (min-width: 600px) {
+        #submit-btn {
+          align-self: flex-end;
+          width: 200px;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        #submit-btn {
+          align-self: stretch;
+          width: 100%;
+        }
       }
     }
   }
