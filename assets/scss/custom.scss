@@ -66,19 +66,21 @@
     }
   }
 
+  .snackbar-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   #snackbar {
-    width: 400px;
+    margin: 0 auto;
     visibility: hidden;
-    min-width: 250px;
-    margin-left: -125px;
     background-color: black;
     color: #fff;
     text-align: center;
-    border-radius: 2px;
     padding: 16px;
     position: fixed;
     z-index: 1;
-    left: 50%;
     bottom: 30px;
     border-radius: 5px;
   }
